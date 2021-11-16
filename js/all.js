@@ -7,7 +7,8 @@ const Pbox = document.querySelector('.prompt-box');
 const Pclose = document.querySelector('.prompt-close');
 
 // 關閉 提示框
-function PcloseBox() {
+function PcloseBox(e) {
+  e.preventDefault();
   Pbox.classList.remove('open-box');
 }
 
