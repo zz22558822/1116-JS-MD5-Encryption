@@ -71,6 +71,12 @@ html,body{
         font-size: 20px;
       }
     }
+    .MD5Text{
+      @include mobile-414{
+        font-size: 18px;
+        padding: 11px 0;
+      }
+    }
     .MD5Text-special{
       font-size: 50px;
       margin: 20px 0;
@@ -145,13 +151,24 @@ html,body{
     text-align: center;
     background: #121212;
     img{
-      margin: 20px 0;
+      margin: 20px 0 10px;
       width: 200px;
       @include mobile-767{
-        margin: 10px 0;
+        margin: 10px 0 5px;
       }
       @include mobile-414{
         margin: 5px 0;
+      }
+    }
+    p{
+      text-align: center;
+      color: #AAA;
+      padding-bottom: 20px;
+      @include mobile-767{
+        padding-bottom: 10px;
+      }
+      @include mobile-414{
+        padding-bottom: 5px;
       }
     }
   }

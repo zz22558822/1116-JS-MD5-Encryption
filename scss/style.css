@@ -290,6 +290,13 @@ html, body {
   }
 }
 
+@media (max-width: 414px) {
+  .wrap .container .MD5Text {
+    font-size: 18px;
+    padding: 11px 0;
+  }
+}
+
 .wrap .container .MD5Text-special {
   font-size: 50px;
   margin: 20px 0;
@@ -402,19 +409,37 @@ html, body {
 }
 
 .wrap .footer img {
-  margin: 20px 0;
+  margin: 20px 0 10px;
   width: 200px;
 }
 
 @media (max-width: 767px) {
   .wrap .footer img {
-    margin: 10px 0;
+    margin: 10px 0 5px;
   }
 }
 
 @media (max-width: 414px) {
   .wrap .footer img {
     margin: 5px 0;
+  }
+}
+
+.wrap .footer p {
+  text-align: center;
+  color: #AAA;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .wrap .footer p {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 414px) {
+  .wrap .footer p {
+    padding-bottom: 5px;
   }
 }
 
