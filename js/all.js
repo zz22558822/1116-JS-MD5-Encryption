@@ -10,14 +10,7 @@ const Pclose = document.querySelector('.prompt-close');
 function PcloseBox(e) {
   e.preventDefault();
   Pbox.classList.remove('open-box');
-}
-
-// Enter關閉 提示框
-function PcloseBoxEnter(e) {
-  if (e.keyCode === 13) {
-    PcloseBox();
-    originText.focus();
-  }
+  originText.focus();
 }
 
 // 特別算法函式
@@ -63,4 +56,3 @@ originText.addEventListener('click', function () {
   this.value = '';
 });
 Pclose.addEventListener('click', PcloseBox);
-Pbox.addEventListener('keydown', PcloseBoxEnter);
