@@ -321,6 +321,30 @@ html, body {
   }
 }
 
+.wrap .container .MD5Text-special2 {
+  font-size: 50px;
+  margin: 20px 0;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: bold;
+  color: #5acd9d;
+}
+
+@media (max-width: 767px) {
+  .wrap .container .MD5Text-special2 {
+    font-size: 46px;
+    margin: 5px 0;
+  }
+}
+
+@media (max-width: 414px) {
+  .wrap .container .MD5Text-special2 {
+    font-size: 30px;
+    margin: 5px 0;
+    padding: 5px 0;
+  }
+}
+
 .wrap .container .btns {
   width: 60%;
   margin-top: 50px;
